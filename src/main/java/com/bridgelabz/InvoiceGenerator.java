@@ -11,6 +11,7 @@ public class InvoiceGenerator {
         if (totalFare < MIN_FARE)
             return MIN_FARE;
         return totalFare;
+
     }
 }
 
