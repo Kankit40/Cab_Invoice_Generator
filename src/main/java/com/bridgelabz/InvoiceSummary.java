@@ -1,6 +1,7 @@
 package com.bridgelabz;
 
 public class InvoiceSummary {
+
     private final int nuberOfRides;
     private final double totalFare;
     private final double averageFare;
@@ -18,5 +19,6 @@ public class InvoiceSummary {
         InvoiceSummary summary = (InvoiceSummary) o;
         return nuberOfRides == summary.nuberOfRides && Double.compare(summary.totalFare, totalFare) == 0 && Double.compare(summary.averageFare, averageFare) == 0;
     }
+
 
 }
